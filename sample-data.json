@@ -1,0 +1,897 @@
+{
+  "ApmEpic": [
+    {
+      "id": "00000000-0105-0001-0000-000000000001",
+      "projectId": "00000000-0105-0001-0000-000000000001",
+      "title": "Epic #1 — Enterprise Primary Record",
+      "description": "Epic description configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0001-0000-000000000002",
+      "projectId": "00000000-0105-0001-0000-000000000002",
+      "title": "Epic #2 — Enterprise Operations Record",
+      "description": "Epic description configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0001-0000-000000000003",
+      "projectId": "00000000-0105-0001-0000-000000000003",
+      "title": "Epic #3 — Enterprise Compliance Record",
+      "description": "Epic description configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "ApmIssue": [
+    {
+      "id": "00000000-0105-0002-0000-000000000001",
+      "projectId": "00000000-0105-0001-0000-000000000001",
+      "epicId": "00000000-0105-0001-0000-000000000001",
+      "sprintId": "00000000-0105-0001-0000-000000000001",
+      "title": "Issue #1 — Enterprise Primary Record",
+      "description": "Issue description configuration (1)",
+      "type": "Issue type configuration (1)",
+      "status": "ACTIVE",
+      "priority": "Issue priority configuration (1)",
+      "storyPoints": 10,
+      "labelIds": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0105-0001-0000-000000000001",
+      "reporterId": "00000000-0105-0001-0000-000000000001"
+    },
+    {
+      "id": "00000000-0105-0002-0000-000000000002",
+      "projectId": "00000000-0105-0001-0000-000000000002",
+      "epicId": "00000000-0105-0001-0000-000000000002",
+      "sprintId": "00000000-0105-0001-0000-000000000002",
+      "title": "Issue #2 — Enterprise Operations Record",
+      "description": "Issue description configuration (2)",
+      "type": "Issue type configuration (2)",
+      "status": "IN_PROGRESS",
+      "priority": "Issue priority configuration (2)",
+      "storyPoints": 20,
+      "labelIds": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0105-0001-0000-000000000002",
+      "reporterId": "00000000-0105-0001-0000-000000000002"
+    },
+    {
+      "id": "00000000-0105-0002-0000-000000000003",
+      "projectId": "00000000-0105-0001-0000-000000000003",
+      "epicId": "00000000-0105-0001-0000-000000000003",
+      "sprintId": "00000000-0105-0001-0000-000000000003",
+      "title": "Issue #3 — Enterprise Compliance Record",
+      "description": "Issue description configuration (3)",
+      "type": "Issue type configuration (3)",
+      "status": "COMPLETED",
+      "priority": "Issue priority configuration (3)",
+      "storyPoints": 30,
+      "labelIds": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "isDeleted": false,
+      "assigneeId": "00000000-0105-0001-0000-000000000003",
+      "reporterId": "00000000-0105-0001-0000-000000000003"
+    }
+  ],
+  "ApmProject": [
+    {
+      "id": "00000000-0105-0003-0000-000000000001",
+      "name": "Project #1 — Enterprise Primary Record",
+      "description": "Project description configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0003-0000-000000000002",
+      "name": "Project #2 — Enterprise Operations Record",
+      "description": "Project description configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0003-0000-000000000003",
+      "name": "Project #3 — Enterprise Compliance Record",
+      "description": "Project description configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "CrmAccount": [
+    {
+      "id": "00000000-0105-0004-0000-000000000001",
+      "name": "Account #1 — Enterprise Primary Record",
+      "email": "ops-team-1@rapider-enterprise.io",
+      "phone": "+1-555-019-2801",
+      "creditLimit": 10,
+      "currentBalance": 10,
+      "riskFlag": "Account riskFlag configuration (1)",
+      "status": "ACTIVE",
+      "paymentTerms": "Account paymentTerms configuration (1)",
+      "accountOwner": "Account accountOwner configuration (1)",
+      "taxId": "00000000-0105-0001-0000-000000000001",
+      "isDeleted": false,
+      "createdAt": "2026-11-01T10:00:00Z",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "accountCode": "CA-2026-0001",
+      "accountType": "Account accountType configuration (1)",
+      "customerTier": "Account customerTier configuration (1)",
+      "supportSlaTier": "Account supportSlaTier configuration (1)",
+      "primaryDomain": "Account primaryDomain configuration (1)",
+      "parentAccountId": "00000000-0105-0001-0000-000000000001",
+      "legalEntityId": "00000000-0105-0001-0000-000000000001",
+      "industry": "Account industry configuration (1)",
+      "revenue": 1250,
+      "website": "Account website configuration (1)",
+      "ownerPersonId": "00000000-0105-0001-0000-000000000001",
+      "description": "Account description configuration (1)",
+      "type": "Account type configuration (1)"
+    },
+    {
+      "id": "00000000-0105-0004-0000-000000000002",
+      "name": "Account #2 — Enterprise Operations Record",
+      "email": "ops-team-2@rapider-enterprise.io",
+      "phone": "+1-555-019-2802",
+      "creditLimit": 20,
+      "currentBalance": 20,
+      "riskFlag": "Account riskFlag configuration (2)",
+      "status": "IN_PROGRESS",
+      "paymentTerms": "Account paymentTerms configuration (2)",
+      "accountOwner": "Account accountOwner configuration (2)",
+      "taxId": "00000000-0105-0001-0000-000000000002",
+      "isDeleted": false,
+      "createdAt": "2026-11-02T10:00:00Z",
+      "updatedAt": "2026-11-02T10:00:00Z",
+      "accountCode": "CA-2026-0002",
+      "accountType": "Account accountType configuration (2)",
+      "customerTier": "Account customerTier configuration (2)",
+      "supportSlaTier": "Account supportSlaTier configuration (2)",
+      "primaryDomain": "Account primaryDomain configuration (2)",
+      "parentAccountId": "00000000-0105-0001-0000-000000000002",
+      "legalEntityId": "00000000-0105-0001-0000-000000000002",
+      "industry": "Account industry configuration (2)",
+      "revenue": 2500,
+      "website": "Account website configuration (2)",
+      "ownerPersonId": "00000000-0105-0001-0000-000000000002",
+      "description": "Account description configuration (2)",
+      "type": "Account type configuration (2)"
+    },
+    {
+      "id": "00000000-0105-0004-0000-000000000003",
+      "name": "Account #3 — Enterprise Compliance Record",
+      "email": "ops-team-3@rapider-enterprise.io",
+      "phone": "+1-555-019-2803",
+      "creditLimit": 30,
+      "currentBalance": 30,
+      "riskFlag": "Account riskFlag configuration (3)",
+      "status": "COMPLETED",
+      "paymentTerms": "Account paymentTerms configuration (3)",
+      "accountOwner": "Account accountOwner configuration (3)",
+      "taxId": "00000000-0105-0001-0000-000000000003",
+      "isDeleted": false,
+      "createdAt": "2026-11-03T10:00:00Z",
+      "updatedAt": "2026-11-03T10:00:00Z",
+      "accountCode": "CA-2026-0003",
+      "accountType": "Account accountType configuration (3)",
+      "customerTier": "Account customerTier configuration (3)",
+      "supportSlaTier": "Account supportSlaTier configuration (3)",
+      "primaryDomain": "Account primaryDomain configuration (3)",
+      "parentAccountId": "00000000-0105-0001-0000-000000000003",
+      "legalEntityId": "00000000-0105-0001-0000-000000000003",
+      "industry": "Account industry configuration (3)",
+      "revenue": 3750,
+      "website": "Account website configuration (3)",
+      "ownerPersonId": "00000000-0105-0001-0000-000000000003",
+      "description": "Account description configuration (3)",
+      "type": "Account type configuration (3)"
+    }
+  ],
+  "DevErrorEvent": [
+    {
+      "id": "00000000-0105-0005-0000-000000000001",
+      "eventId": "00000000-0105-0001-0000-000000000001",
+      "issueId": "00000000-0105-0001-0000-000000000001",
+      "serviceId": "00000000-0105-0001-0000-000000000001",
+      "environment": "Error Event environment configuration (1)",
+      "releaseVersion": "Error Event releaseVersion configuration (1)",
+      "occurredAt": "2026-11-01T10:00:00Z",
+      "symbolicatedFrames": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "breadcrumbs": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "tags": {
+        "configured": true,
+        "tier": 1
+      },
+      "runtimeContext": {
+        "configured": true,
+        "tier": 1
+      },
+      "activeFlagVariants": {
+        "configured": true,
+        "tier": 1
+      },
+      "traceId": "00000000-0105-0001-0000-000000000001",
+      "spanId": "00000000-0105-0001-0000-000000000001",
+      "scrubbingApplied": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "userFeedbackNote": "Error Event userFeedbackNote configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0005-0000-000000000002",
+      "eventId": "00000000-0105-0001-0000-000000000002",
+      "issueId": "00000000-0105-0001-0000-000000000002",
+      "serviceId": "00000000-0105-0001-0000-000000000002",
+      "environment": "Error Event environment configuration (2)",
+      "releaseVersion": "Error Event releaseVersion configuration (2)",
+      "occurredAt": "2026-11-02T10:00:00Z",
+      "symbolicatedFrames": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "breadcrumbs": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "tags": {
+        "configured": true,
+        "tier": 2
+      },
+      "runtimeContext": {
+        "configured": true,
+        "tier": 2
+      },
+      "activeFlagVariants": {
+        "configured": true,
+        "tier": 2
+      },
+      "traceId": "00000000-0105-0001-0000-000000000002",
+      "spanId": "00000000-0105-0001-0000-000000000002",
+      "scrubbingApplied": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "userFeedbackNote": "Error Event userFeedbackNote configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0005-0000-000000000003",
+      "eventId": "00000000-0105-0001-0000-000000000003",
+      "issueId": "00000000-0105-0001-0000-000000000003",
+      "serviceId": "00000000-0105-0001-0000-000000000003",
+      "environment": "Error Event environment configuration (3)",
+      "releaseVersion": "Error Event releaseVersion configuration (3)",
+      "occurredAt": "2026-11-03T10:00:00Z",
+      "symbolicatedFrames": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "breadcrumbs": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "tags": {
+        "configured": true,
+        "tier": 3
+      },
+      "runtimeContext": {
+        "configured": true,
+        "tier": 3
+      },
+      "activeFlagVariants": {
+        "configured": true,
+        "tier": 3
+      },
+      "traceId": "00000000-0105-0001-0000-000000000003",
+      "spanId": "00000000-0105-0001-0000-000000000003",
+      "scrubbingApplied": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "userFeedbackNote": "Error Event userFeedbackNote configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevErrorIssue": [
+    {
+      "id": "00000000-0105-0006-0000-000000000001",
+      "shortId": "00000000-0105-0001-0000-000000000001",
+      "serviceId": "00000000-0105-0001-0000-000000000001",
+      "fingerprintHash": "Error Issue fingerprintHash configuration (1)",
+      "exceptionType": "Error Issue exceptionType configuration (1)",
+      "title": "Error Issue #1 — Enterprise Primary Record",
+      "culprit": "Error Issue culprit configuration (1)",
+      "level": "Error Issue level configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0006-0000-000000000002",
+      "shortId": "00000000-0105-0001-0000-000000000002",
+      "serviceId": "00000000-0105-0001-0000-000000000002",
+      "fingerprintHash": "Error Issue fingerprintHash configuration (2)",
+      "exceptionType": "Error Issue exceptionType configuration (2)",
+      "title": "Error Issue #2 — Enterprise Operations Record",
+      "culprit": "Error Issue culprit configuration (2)",
+      "level": "Error Issue level configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0006-0000-000000000003",
+      "shortId": "00000000-0105-0001-0000-000000000003",
+      "serviceId": "00000000-0105-0001-0000-000000000003",
+      "fingerprintHash": "Error Issue fingerprintHash configuration (3)",
+      "exceptionType": "Error Issue exceptionType configuration (3)",
+      "title": "Error Issue #3 — Enterprise Compliance Record",
+      "culprit": "Error Issue culprit configuration (3)",
+      "level": "Error Issue level configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevErrorService": [
+    {
+      "id": "00000000-0105-0007-0000-000000000001",
+      "name": "Error Service #1 — Enterprise Primary Record",
+      "slug": "DES-2026-0001",
+      "platformType": "Error Service platformType configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0007-0000-000000000002",
+      "name": "Error Service #2 — Enterprise Operations Record",
+      "slug": "DES-2026-0002",
+      "platformType": "Error Service platformType configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0007-0000-000000000003",
+      "name": "Error Service #3 — Enterprise Compliance Record",
+      "slug": "DES-2026-0003",
+      "platformType": "Error Service platformType configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevReleaseHealth": [
+    {
+      "id": "00000000-0105-0008-0000-000000000001",
+      "serviceId": "00000000-0105-0001-0000-000000000001",
+      "environment": "Release Health environment configuration (1)",
+      "releaseVersion": "Release Health releaseVersion configuration (1)",
+      "totalSessions": "Release Health totalSessions configuration (1)",
+      "crashedSessions": "Release Health crashedSessions configuration (1)",
+      "erroredSessions": "Release Health erroredSessions configuration (1)",
+      "totalUsers": "Release Health totalUsers configuration (1)",
+      "crashedUsers": "Release Health crashedUsers configuration (1)",
+      "crashFreeSessionRate": 85,
+      "crashFreeUserRate": 85,
+      "targetStabilityThreshold": 10,
+      "criticalStabilityThreshold": 10,
+      "gateStatus": "Release Health gateStatus configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0008-0000-000000000002",
+      "serviceId": "00000000-0105-0001-0000-000000000002",
+      "environment": "Release Health environment configuration (2)",
+      "releaseVersion": "Release Health releaseVersion configuration (2)",
+      "totalSessions": "Release Health totalSessions configuration (2)",
+      "crashedSessions": "Release Health crashedSessions configuration (2)",
+      "erroredSessions": "Release Health erroredSessions configuration (2)",
+      "totalUsers": "Release Health totalUsers configuration (2)",
+      "crashedUsers": "Release Health crashedUsers configuration (2)",
+      "crashFreeSessionRate": 90,
+      "crashFreeUserRate": 90,
+      "targetStabilityThreshold": 20,
+      "criticalStabilityThreshold": 20,
+      "gateStatus": "Release Health gateStatus configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0008-0000-000000000003",
+      "serviceId": "00000000-0105-0001-0000-000000000003",
+      "environment": "Release Health environment configuration (3)",
+      "releaseVersion": "Release Health releaseVersion configuration (3)",
+      "totalSessions": "Release Health totalSessions configuration (3)",
+      "crashedSessions": "Release Health crashedSessions configuration (3)",
+      "erroredSessions": "Release Health erroredSessions configuration (3)",
+      "totalUsers": "Release Health totalUsers configuration (3)",
+      "crashedUsers": "Release Health crashedUsers configuration (3)",
+      "crashFreeSessionRate": 95,
+      "crashFreeUserRate": 95,
+      "targetStabilityThreshold": 30,
+      "criticalStabilityThreshold": 30,
+      "gateStatus": "Release Health gateStatus configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "FinSubscription": [
+    {
+      "id": "00000000-0105-0009-0000-000000000001",
+      "accountId": "00000000-0105-0001-0000-000000000001",
+      "planName": "Subscription #1 — Enterprise Primary Record",
+      "monthlyRate": 85,
+      "startDate": "2026-11-01T10:00:00Z",
+      "endDate": "2026-11-01T10:00:00Z",
+      "status": "ACTIVE",
+      "isDeleted": false,
+      "subscriptionNumber": "FS-2026-0001",
+      "contactId": "00000000-0105-0001-0000-000000000001",
+      "billingOfferId": "00000000-0105-0001-0000-000000000001",
+      "billingInterval": "Subscription billingInterval configuration (1)",
+      "mrrAmount": 1250,
+      "arrAmount": 1250,
+      "autoRenew": true,
+      "cancelAtPeriodEnd": true,
+      "offerId": "00000000-0105-0001-0000-000000000001",
+      "customerId": "00000000-0105-0001-0000-000000000001",
+      "state": "Subscription state configuration (1)",
+      "currentPeriodStart": "2026-11-01T10:00:00Z",
+      "currentPeriodEnd": "2026-11-01T10:00:00Z",
+      "createdAt": "2026-11-01T10:00:00Z",
+      "updatedAt": "2026-11-01T10:00:00Z"
+    },
+    {
+      "id": "00000000-0105-0009-0000-000000000002",
+      "accountId": "00000000-0105-0001-0000-000000000002",
+      "planName": "Subscription #2 — Enterprise Operations Record",
+      "monthlyRate": 90,
+      "startDate": "2026-11-02T10:00:00Z",
+      "endDate": "2026-11-02T10:00:00Z",
+      "status": "IN_PROGRESS",
+      "isDeleted": false,
+      "subscriptionNumber": "FS-2026-0002",
+      "contactId": "00000000-0105-0001-0000-000000000002",
+      "billingOfferId": "00000000-0105-0001-0000-000000000002",
+      "billingInterval": "Subscription billingInterval configuration (2)",
+      "mrrAmount": 2500,
+      "arrAmount": 2500,
+      "autoRenew": true,
+      "cancelAtPeriodEnd": true,
+      "offerId": "00000000-0105-0001-0000-000000000002",
+      "customerId": "00000000-0105-0001-0000-000000000002",
+      "state": "Subscription state configuration (2)",
+      "currentPeriodStart": "2026-11-02T10:00:00Z",
+      "currentPeriodEnd": "2026-11-02T10:00:00Z",
+      "createdAt": "2026-11-02T10:00:00Z",
+      "updatedAt": "2026-11-02T10:00:00Z"
+    },
+    {
+      "id": "00000000-0105-0009-0000-000000000003",
+      "accountId": "00000000-0105-0001-0000-000000000003",
+      "planName": "Subscription #3 — Enterprise Compliance Record",
+      "monthlyRate": 95,
+      "startDate": "2026-11-03T10:00:00Z",
+      "endDate": "2026-11-03T10:00:00Z",
+      "status": "COMPLETED",
+      "isDeleted": false,
+      "subscriptionNumber": "FS-2026-0003",
+      "contactId": "00000000-0105-0001-0000-000000000003",
+      "billingOfferId": "00000000-0105-0001-0000-000000000003",
+      "billingInterval": "Subscription billingInterval configuration (3)",
+      "mrrAmount": 3750,
+      "arrAmount": 3750,
+      "autoRenew": false,
+      "cancelAtPeriodEnd": false,
+      "offerId": "00000000-0105-0001-0000-000000000003",
+      "customerId": "00000000-0105-0001-0000-000000000003",
+      "state": "Subscription state configuration (3)",
+      "currentPeriodStart": "2026-11-03T10:00:00Z",
+      "currentPeriodEnd": "2026-11-03T10:00:00Z",
+      "createdAt": "2026-11-03T10:00:00Z",
+      "updatedAt": "2026-11-03T10:00:00Z"
+    }
+  ],
+  "DevFeatureFlag": [
+    {
+      "id": "00000000-0105-0010-0000-000000000001",
+      "flagKey": "DFF-2026-0001",
+      "flagName": "Feature Flag #1 — Enterprise Primary Record",
+      "environment": "Feature Flag environment configuration (1)",
+      "valueType": "Feature Flag valueType configuration (1)",
+      "defaultOffValueJson": "Feature Flag defaultOffValueJson configuration (1)",
+      "rolloutPct": 85,
+      "killSwitchEngaged": true,
+      "rolledOut100At": "2026-11-01T10:00:00Z",
+      "cleanupStatus": "Feature Flag cleanupStatus configuration (1)",
+      "version": 1,
+      "key": "DFF-2026-0001",
+      "name": "Feature Flag #1 — Enterprise Primary Record",
+      "description": "Feature Flag description configuration (1)",
+      "category": "Feature Flag category configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0010-0000-000000000002",
+      "flagKey": "DFF-2026-0002",
+      "flagName": "Feature Flag #2 — Enterprise Operations Record",
+      "environment": "Feature Flag environment configuration (2)",
+      "valueType": "Feature Flag valueType configuration (2)",
+      "defaultOffValueJson": "Feature Flag defaultOffValueJson configuration (2)",
+      "rolloutPct": 90,
+      "killSwitchEngaged": true,
+      "rolledOut100At": "2026-11-02T10:00:00Z",
+      "cleanupStatus": "Feature Flag cleanupStatus configuration (2)",
+      "version": 2,
+      "key": "DFF-2026-0002",
+      "name": "Feature Flag #2 — Enterprise Operations Record",
+      "description": "Feature Flag description configuration (2)",
+      "category": "Feature Flag category configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0010-0000-000000000003",
+      "flagKey": "DFF-2026-0003",
+      "flagName": "Feature Flag #3 — Enterprise Compliance Record",
+      "environment": "Feature Flag environment configuration (3)",
+      "valueType": "Feature Flag valueType configuration (3)",
+      "defaultOffValueJson": "Feature Flag defaultOffValueJson configuration (3)",
+      "rolloutPct": 95,
+      "killSwitchEngaged": false,
+      "rolledOut100At": "2026-11-03T10:00:00Z",
+      "cleanupStatus": "Feature Flag cleanupStatus configuration (3)",
+      "version": 3,
+      "key": "DFF-2026-0003",
+      "name": "Feature Flag #3 — Enterprise Compliance Record",
+      "description": "Feature Flag description configuration (3)",
+      "category": "Feature Flag category configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevFlagEnvironment": [
+    {
+      "id": "00000000-0105-0011-0000-000000000001",
+      "key": "DFE-2026-0001",
+      "name": "Flag Environment #1 — Enterprise Primary Record",
+      "colorHex": "Flag Environment colorHex configuration (1)",
+      "isProduction": true,
+      "requireChangeApproval": true,
+      "minApprovalsRequired": 10,
+      "serverSdkKeyHash": "DFE-2026-0001",
+      "clientPublishableKey": "DFE-2026-0001",
+      "sortOrder": 10,
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0011-0000-000000000002",
+      "key": "DFE-2026-0002",
+      "name": "Flag Environment #2 — Enterprise Operations Record",
+      "colorHex": "Flag Environment colorHex configuration (2)",
+      "isProduction": true,
+      "requireChangeApproval": true,
+      "minApprovalsRequired": 20,
+      "serverSdkKeyHash": "DFE-2026-0002",
+      "clientPublishableKey": "DFE-2026-0002",
+      "sortOrder": 20,
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0011-0000-000000000003",
+      "key": "DFE-2026-0003",
+      "name": "Flag Environment #3 — Enterprise Compliance Record",
+      "colorHex": "Flag Environment colorHex configuration (3)",
+      "isProduction": false,
+      "requireChangeApproval": false,
+      "minApprovalsRequired": 30,
+      "serverSdkKeyHash": "DFE-2026-0003",
+      "clientPublishableKey": "DFE-2026-0003",
+      "sortOrder": 30,
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevFlagRuleSet": [
+    {
+      "id": "00000000-0105-0012-0000-000000000001",
+      "flagId": "00000000-0105-0001-0000-000000000001",
+      "environmentId": "00000000-0105-0001-0000-000000000001",
+      "isEnabled": true,
+      "prerequisites": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "individualTargets": {
+        "configured": true,
+        "tier": 1
+      },
+      "targetingRules": [
+        "item-1-a",
+        "item-1-b"
+      ],
+      "fallthroughAllocation": {
+        "configured": true,
+        "tier": 1
+      },
+      "offVariationKey": "DFRS-2026-0001",
+      "bucketingSalt": "Flag Rule Set bucketingSalt configuration (1)",
+      "evaluationCount24h": "Flag Rule Set evaluationCount24h configuration (1)",
+      "lastEvaluatedAt": "2026-11-01T10:00:00Z",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0012-0000-000000000002",
+      "flagId": "00000000-0105-0001-0000-000000000002",
+      "environmentId": "00000000-0105-0001-0000-000000000002",
+      "isEnabled": true,
+      "prerequisites": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "individualTargets": {
+        "configured": true,
+        "tier": 2
+      },
+      "targetingRules": [
+        "item-2-a",
+        "item-2-b"
+      ],
+      "fallthroughAllocation": {
+        "configured": true,
+        "tier": 2
+      },
+      "offVariationKey": "DFRS-2026-0002",
+      "bucketingSalt": "Flag Rule Set bucketingSalt configuration (2)",
+      "evaluationCount24h": "Flag Rule Set evaluationCount24h configuration (2)",
+      "lastEvaluatedAt": "2026-11-02T10:00:00Z",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0012-0000-000000000003",
+      "flagId": "00000000-0105-0001-0000-000000000003",
+      "environmentId": "00000000-0105-0001-0000-000000000003",
+      "isEnabled": false,
+      "prerequisites": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "individualTargets": {
+        "configured": true,
+        "tier": 3
+      },
+      "targetingRules": [
+        "item-3-a",
+        "item-3-b"
+      ],
+      "fallthroughAllocation": {
+        "configured": true,
+        "tier": 3
+      },
+      "offVariationKey": "DFRS-2026-0003",
+      "bucketingSalt": "Flag Rule Set bucketingSalt configuration (3)",
+      "evaluationCount24h": "Flag Rule Set evaluationCount24h configuration (3)",
+      "lastEvaluatedAt": "2026-11-03T10:00:00Z",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevFlagSegment": [
+    {
+      "id": "00000000-0105-0013-0000-000000000001",
+      "key": "DFS-2026-0001",
+      "name": "Flag Segment #1 — Enterprise Primary Record",
+      "contextKind": "Flag Segment contextKind configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0013-0000-000000000002",
+      "key": "DFS-2026-0002",
+      "name": "Flag Segment #2 — Enterprise Operations Record",
+      "contextKind": "Flag Segment contextKind configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0013-0000-000000000003",
+      "key": "DFS-2026-0003",
+      "name": "Flag Segment #3 — Enterprise Compliance Record",
+      "contextKind": "Flag Segment contextKind configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevFlagRolloutPlan": [
+    {
+      "id": "00000000-0105-0014-0000-000000000001",
+      "flagId": "00000000-0105-0001-0000-000000000001",
+      "environmentId": "00000000-0105-0001-0000-000000000001",
+      "targetVariationKey": "DFRP-2026-0001",
+      "stages": "Flag Rollout Plan stages configuration (1)",
+      "durationMinutes": 10,
+      "currentStageIndex": 10,
+      "guardrailServiceId": "00000000-0105-0001-0000-000000000001",
+      "minCrashFreeRate": 85,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0014-0000-000000000002",
+      "flagId": "00000000-0105-0001-0000-000000000002",
+      "environmentId": "00000000-0105-0001-0000-000000000002",
+      "targetVariationKey": "DFRP-2026-0002",
+      "stages": "Flag Rollout Plan stages configuration (2)",
+      "durationMinutes": 20,
+      "currentStageIndex": 20,
+      "guardrailServiceId": "00000000-0105-0001-0000-000000000002",
+      "minCrashFreeRate": 90,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0014-0000-000000000003",
+      "flagId": "00000000-0105-0001-0000-000000000003",
+      "environmentId": "00000000-0105-0001-0000-000000000003",
+      "targetVariationKey": "DFRP-2026-0003",
+      "stages": "Flag Rollout Plan stages configuration (3)",
+      "durationMinutes": 30,
+      "currentStageIndex": 30,
+      "guardrailServiceId": "00000000-0105-0001-0000-000000000003",
+      "minCrashFreeRate": 95,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevFlagChangeRequest": [
+    {
+      "id": "00000000-0105-0015-0000-000000000001",
+      "title": "Flag Change Request #1 — Enterprise Primary Record",
+      "flagId": "00000000-0105-0001-0000-000000000001",
+      "environmentId": "00000000-0105-0001-0000-000000000001",
+      "requestedByUserId": "00000000-0105-0001-0000-000000000001",
+      "proposedRuleSetPatch": {
+        "configured": true,
+        "tier": 1
+      },
+      "reasonComment": "Flag Change Request reasonComment configuration (1)",
+      "scheduledApplyAt": "2026-11-01T10:00:00Z",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0015-0000-000000000002",
+      "title": "Flag Change Request #2 — Enterprise Operations Record",
+      "flagId": "00000000-0105-0001-0000-000000000002",
+      "environmentId": "00000000-0105-0001-0000-000000000002",
+      "requestedByUserId": "00000000-0105-0001-0000-000000000002",
+      "proposedRuleSetPatch": {
+        "configured": true,
+        "tier": 2
+      },
+      "reasonComment": "Flag Change Request reasonComment configuration (2)",
+      "scheduledApplyAt": "2026-11-02T10:00:00Z",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0015-0000-000000000003",
+      "title": "Flag Change Request #3 — Enterprise Compliance Record",
+      "flagId": "00000000-0105-0001-0000-000000000003",
+      "environmentId": "00000000-0105-0001-0000-000000000003",
+      "requestedByUserId": "00000000-0105-0001-0000-000000000003",
+      "proposedRuleSetPatch": {
+        "configured": true,
+        "tier": 3
+      },
+      "reasonComment": "Flag Change Request reasonComment configuration (3)",
+      "scheduledApplyAt": "2026-11-03T10:00:00Z",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevFlagRevision": [
+    {
+      "id": "00000000-0105-0016-0000-000000000001",
+      "flagId": "00000000-0105-0001-0000-000000000001",
+      "environmentId": "00000000-0105-0001-0000-000000000001",
+      "revisionNumber": "DFR-2026-0001",
+      "actorUserId": "00000000-0105-0001-0000-000000000001",
+      "changeType": "Flag Revision changeType configuration (1)",
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0016-0000-000000000002",
+      "flagId": "00000000-0105-0001-0000-000000000002",
+      "environmentId": "00000000-0105-0001-0000-000000000002",
+      "revisionNumber": "DFR-2026-0002",
+      "actorUserId": "00000000-0105-0001-0000-000000000002",
+      "changeType": "Flag Revision changeType configuration (2)",
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0016-0000-000000000003",
+      "flagId": "00000000-0105-0001-0000-000000000003",
+      "environmentId": "00000000-0105-0001-0000-000000000003",
+      "revisionNumber": "DFR-2026-0003",
+      "actorUserId": "00000000-0105-0001-0000-000000000003",
+      "changeType": "Flag Revision changeType configuration (3)",
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ],
+  "DevFlagCodeRef": [
+    {
+      "id": "00000000-0105-0017-0000-000000000001",
+      "flagId": "00000000-0105-0001-0000-000000000001",
+      "repositoryName": "Flag Code Ref #1 — Enterprise Primary Record",
+      "branchName": "Flag Code Ref #1 — Enterprise Primary Record",
+      "commitSha": "Flag Code Ref commitSha configuration (1)",
+      "filePath": "Flag Code Ref filePath configuration (1)",
+      "lineNumber": 10,
+      "codeSnippet": "DFCR-2026-0001",
+      "scannedAt": "2026-11-01T10:00:00Z",
+      "version": 1,
+      "status": "ACTIVE",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0017-0000-000000000002",
+      "flagId": "00000000-0105-0001-0000-000000000002",
+      "repositoryName": "Flag Code Ref #2 — Enterprise Operations Record",
+      "branchName": "Flag Code Ref #2 — Enterprise Operations Record",
+      "commitSha": "Flag Code Ref commitSha configuration (2)",
+      "filePath": "Flag Code Ref filePath configuration (2)",
+      "lineNumber": 20,
+      "codeSnippet": "DFCR-2026-0002",
+      "scannedAt": "2026-11-02T10:00:00Z",
+      "version": 2,
+      "status": "IN_PROGRESS",
+      "isDeleted": false
+    },
+    {
+      "id": "00000000-0105-0017-0000-000000000003",
+      "flagId": "00000000-0105-0001-0000-000000000003",
+      "repositoryName": "Flag Code Ref #3 — Enterprise Compliance Record",
+      "branchName": "Flag Code Ref #3 — Enterprise Compliance Record",
+      "commitSha": "Flag Code Ref commitSha configuration (3)",
+      "filePath": "Flag Code Ref filePath configuration (3)",
+      "lineNumber": 30,
+      "codeSnippet": "DFCR-2026-0003",
+      "scannedAt": "2026-11-03T10:00:00Z",
+      "version": 3,
+      "status": "COMPLETED",
+      "isDeleted": false
+    }
+  ]
+}
